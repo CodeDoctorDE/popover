@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 import '../popover_direction.dart';
 
@@ -38,5 +38,7 @@ abstract class PopoverUtils {
       PlatformDispatcher.instance.views.first.devicePixelRatio;
 }
 
-typedef PopoverTransitionBuilder =
-    Widget Function(Animation<double> animation, Widget child);
+typedef PopoverTransitionBuilder = Widget Function(
+  Animation<double> animation,
+  Widget child,
+);

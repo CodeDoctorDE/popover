@@ -1,3 +1,8 @@
+## Unreleased
+
+- Migrate the library, tests, and example to `material_ui`.
+- Update dependencies and SDK requirements.
+
 ## [0.4.0] - 23.10.2025
 
 - Fixed memory leak by disposing CurvedAnimation in FadeTransitionWidget ([#105](https://github.com/minikin/popover/pull/105), [#106](https://github.com/minikin/popover/pull/106)).(thanks [@ZacharyYongBB](https://github.com/ZacharyYongBB)).

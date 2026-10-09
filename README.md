@@ -56,14 +56,18 @@ Source: [Human Interface Guidelines.
 
 ## Requirements
 
-- Dart: 3.9.0+
-- Flutter: 3.35.0+
+- Dart: 3.13.0+
+- Flutter: 3.47.0+
 
 ## Install
 
 ```yaml
 dependencies:
-  popover: ^0.4.0
+  material_ui: ^1.6.0
+  popover:
+    git:
+      url: https://github.com/CodeDoctorDE/popover.git
+      ref: main
 ```
 
 ## Example
@@ -71,7 +75,7 @@ dependencies:
 See `example/lib/main.dart`.
 
 ```dart
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:popover/popover.dart';
 
 class PopoverExample extends StatelessWidget {
